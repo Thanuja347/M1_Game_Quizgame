@@ -7,14 +7,3 @@ In quiz game, questions are chosen in such a a way that they cover all fields of
  
  ## SWOT Analysis
  
-## 4W's and 1H
-## WHO
-  users interested in taking quiz
-## WHAT
-  To know the  main objective of quiz
-## WHY
-  To test their knowledge on General Knowledge,Current affairs etc.,
-## WHEN
-  User can participateon their own
-## HOW
-  The user can take the quiz by starting the quiz
