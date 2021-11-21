@@ -29,6 +29,7 @@ Testing and improving knowledge on G.K
  ### How: 
  User can register their name and start the quiz
  ## Requirements
+ | ID | Description |
   #### High level Requirements                  
   * Windows                                  
   * Visual Studio Code                       
@@ -38,3 +39,7 @@ Testing and improving knowledge on G.K
   #### Low level Requirements   
   * User with functionality known
   * Name
+  * | Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
