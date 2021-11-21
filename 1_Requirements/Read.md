@@ -10,13 +10,13 @@ Reset Score
 Score
 ## SWOT Analysis
  ### a.Strengths 
- It is a fun game where users can gain knowledge can also get score
+ Strength are the favorable internal activities, processes, and behaviors.It is a fun game where users can gain knowledge can also get score.
  ### b.Weakness: 
- Limited no.of questions
+  Weaknesses are all those things you do not perform well,Limited no.of questions.
  ### c.Opportunity: 
- Users gain info on current affairs and trends
+ Opportunities refer to favorable external factors that could give an organization a competitive advantage.Users gain info on current affairs and trends
  ### d.Threats:
- Bugs and Errors
+  Threats includes Bugs and Errors in the code which affects the code implementation.
  ## 4W's & H:
  Who : Users who like quiz games
  What: A project on creating a Quiz game
