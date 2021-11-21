@@ -18,11 +18,16 @@ Score
  ### d.Threats:
   Threats includes Bugs and Errors in the code which affects the code implementation.
  ## 4W's & H:-
-   ### * Who : Users who like quiz games
- What: A project on creating a Quiz game
- Why : Testing and improving knowledge on G.K
- When: Users who like fun quiz games
- How : User can register their name and start the quiz
+   ### Who : 
+   Users who like quiz games
+ ### What: 
+   A project on creating a Quiz game
+### Why:  
+Testing and improving knowledge on G.K
+ ### When: 
+ Users who like fun quiz games
+ ### How: 
+ User can register their name and start the quiz
  ## Requirements
   #### High level Requirements                  
   * Windows                                  
