@@ -39,7 +39,3 @@ Testing and improving knowledge on G.K
   #### Low level Requirements   
   * User with functionality known
   * Name
-  * | Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
