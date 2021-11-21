@@ -29,13 +29,14 @@ Testing and improving knowledge on G.K
  ### How: 
  User can register their name and start the quiz
  ## Requirements
- | ID | Description |
-  #### High level Requirements                  
-  * Windows                                  
-  * Visual Studio Code                       
-  * WSL
-  * gcc compiler
-  * Github  
+  #### High level Requirements
+| ID | Description | 
+| :---:   | :-: | 
+| HLR1 | It's basically a quiz game | 
+| HLR2 | User is essential | 
+| HLR1 | Windows,Visual Studio Code,WSL,gcc compiler,Github   | 
   #### Low level Requirements   
-  * User with functionality known
-  * Name
+  | ID | Description | 
+| :---:   | :-: | 
+| HLR1 | User with functionality known | 
+| HLR2 | User Name| 
