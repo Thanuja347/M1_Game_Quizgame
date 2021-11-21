@@ -13,9 +13,9 @@ Score
  It is a fun game where users can gain knowledge can also get score
  ### b.Weakness: 
  Limited no.of questions
- ### Opportunity: 
+ ### c.Opportunity: 
  Users gain info on current affairs and trends
- ### Threats:
+ ### d.Threats:
  Bugs and Errors
  ## 4W's & H:
  Who : Users who like quiz games
