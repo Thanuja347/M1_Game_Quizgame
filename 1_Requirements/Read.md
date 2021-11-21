@@ -4,15 +4,19 @@
 The main objective of Quiz Contest is to facilitate a user friendly environment for all users questions are chosen in such a a way that they cover all fields of a typical quiz contest. The user’s general knowledge is tested with quiz questions regarding science, technology, movies, sports, general health, geography and many more..`
 ## Reasearch:-
 
-## Cost Features and Timeline
+## Cost Features
 Leader Board
 Reset Score
 Score
 ## SWOT Analysis
- S: It is a fun game where users can gain knowledge can also get score
- W: Limited no.of questions
- O: Users gain info on current affairs and trends
- T: Bugs and Errors
+ ### a.Strengths 
+ It is a fun game where users can gain knowledge can also get score
+ ### b.Weakness: 
+ Limited no.of questions
+ ### Opportunity: 
+ Users gain info on current affairs and trends
+ ### Threats:
+ Bugs and Errors
  ## 4W's & H:
  Who : Users who like quiz games
  What: A project on creating a Quiz game
