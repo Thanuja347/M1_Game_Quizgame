@@ -44,3 +44,5 @@
 | 4	         | Pushing files and folders to repository by Git bash	By removing all the previous pushed files and folders       |
 
 [![cppcheck-action-test](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml)
+Code Inspector-![](https://api.codiga.io/project/29841/score/svg)
+![](https://api.codiga.io/project/29841/status/svg)
