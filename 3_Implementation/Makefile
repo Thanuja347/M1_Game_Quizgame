@@ -1,21 +1,23 @@
+PROJ_NAME = quizgame
 SRC = p1.c
-TEST_SRC = unity.c\
-testquizgame.c
 
-all: $(SRC) $(TEST_SRC)
-	g++ $^ -o all.out
+ifdef OS
+   RM = del /q
+   FixPath = $(subst /,\,$1)
+   EXEC = exe
+else
+   ifeq ($(shell uname), Linux)
+      RM = rm -rf
+      FixPath = $1
+	  EXEC = out
+   endif
+endif
 
-run:all
-	./all.out
+build:
+	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-coverage:$(SRC) $(TEST_SRC)
-	g++ -fprofile-arcs -ftest-coverage $^ -o all.out
-	./all.out
-	gcov -a $(SRC)
-
-analyze:all $(SRC)
-	cppcheck --enable=all $(SRC)
-	valgrind ./all.out
+run: build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
 clean:
-	rm -rf *.o *.out *.gcd* *.gcno* *.gcov* 
+	$(RM) $(call FixPath,$(PROJ_NAME).$(EXEC))
