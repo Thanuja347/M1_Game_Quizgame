@@ -1,0 +1,8 @@
+3_Implementation/src/p1.c:6:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(name);
+    ^
+3_Implementation/unity/unity_internals.h:1055:0: error: The code contains unhandled character(s) (character code=194). Neither unicode nor extended ascii is supported. [preprocessorErrorDirective]
+© 2021 GitHub, Inc.
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
