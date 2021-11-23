@@ -1,6 +1,6 @@
 SRC = p1.c
 TEST_SRC = unity.c\
-test_addressbook.c
+testquizgame.c
 
 all: $(SRC) $(TEST_SRC)
 	g++ $^ -o all.out
