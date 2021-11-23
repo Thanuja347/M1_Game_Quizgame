@@ -42,3 +42,5 @@
 | 2          | Writing all the requirements, Features, Swot analysis, 4W & 1H and High/Low level requirements	By doing research |
 | 3	         | Creating github Workflows	By Code Inspection                                                                    |
 | 4	         | Pushing files and folders to repository by Git bash	By removing all the previous pushed files and folders       |
+
+[![cppcheck-action-test](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml)
