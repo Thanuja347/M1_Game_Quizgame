@@ -1,69 +1,21 @@
-########################################################################
-####################### Makefile Template ##############################
-########################################################################
+SRC = p1.c
+TEST_SRC = unity.c\
+test_addressbook.c
 
-# Compiler settings - Can be customized.
-CC = gcc
-CXXFLAGS = -std=c11 -Wall
-LDFLAGS = 
+all: $(SRC) $(TEST_SRC)
+	g++ $^ -o all.out
 
-# Makefile settings - Can be customized.
-APPNAME = myapp
-EXT = .c
-SRCDIR = src
-OBJDIR = obj
+run:all
+	./all.out
 
-############## Do not change anything from here downwards! #############
-SRC = $(wildcard $(SRCDIR)/*$(EXT))
-OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)
-DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
-# UNIX-based OS variables & settings
-RM = rm
-DELOBJ = $(OBJ)
-# Windows OS variables & settings
-DEL = del
-EXE = .exe
-WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
+coverage:$(SRC) $(TEST_SRC)
+	g++ -fprofile-arcs -ftest-coverage $^ -o all.out
+	./all.out
+	gcov -a $(SRC)
 
-########################################################################
-####################### Targets beginning here #########################
-########################################################################
+analyze:all $(SRC)
+	cppcheck --enable=all $(SRC)
+	valgrind ./all.out
 
-all: $(APPNAME)
-
-# Builds the app
-$(APPNAME): $(OBJ)
-	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
-
-# Creates the dependecy rules
-%.d: $(SRCDIR)/%$(EXT)
-	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
-
-# Includes all .h files
--include $(DEP)
-
-# Building rule for .o files and its .c/.cpp in combination with all .h
-$(OBJDIR)/%.o: $(SRCDIR)/%$(EXT)
-	$(CC) $(CXXFLAGS) -o $@ -c $<
-
-################### Cleaning rules for Unix-based OS ###################
-# Cleans complete project
-.PHONY: clean
 clean:
-	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
-
-# Cleans only all files with the extension .d
-.PHONY: cleandep
-cleandep:
-	$(RM) $(DEP)
-
-#################### Cleaning rules for Windows OS #####################
-# Cleans complete project
-.PHONY: cleanw
-cleanw:
-	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
-
-# Cleans only all files with the extension .d
-.PHONY: cleandepw
-cleandepw:
-	$(DEL) $(DEP)
+	rm -rf *.o *.out *.gcd* *.gcno* *.gcov* 
