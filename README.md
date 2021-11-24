@@ -1,7 +1,10 @@
 # M1_Game_Quizgame
 
+## Badges
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6af768e626d9445a95ac8295e1c1a44d)](https://app.codacy.com/gh/Thanuja347/M1_Game_Quizgame?utm_source=github.com&utm_medium=referral&utm_content=Thanuja347/M1_Game_Quizgame&utm_campaign=Badge_Grade_Settings)
 [![cppcheck-action-test](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml)
+![](https://api.codiga.io/project/29841/score/svg)
+![](https://api.codiga.io/project/29841/status/svg)
 
 
 ![WhatsApp Image 2021-11-23 at 2 07 58 PM](https://user-images.githubusercontent.com/94186665/142992739-b42bea37-184e-4ee8-81a7-6961104c55bb.jpeg)
