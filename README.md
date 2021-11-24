@@ -1,5 +1,7 @@
 # M1_Game_Quizgame
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6af768e626d9445a95ac8295e1c1a44d)](https://app.codacy.com/gh/Thanuja347/M1_Game_Quizgame?utm_source=github.com&utm_medium=referral&utm_content=Thanuja347/M1_Game_Quizgame&utm_campaign=Badge_Grade_Settings)
+[![cppcheck-action-test](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml)
 
 
 ![WhatsApp Image 2021-11-23 at 2 07 58 PM](https://user-images.githubusercontent.com/94186665/142992739-b42bea37-184e-4ee8-81a7-6961104c55bb.jpeg)
@@ -43,6 +45,4 @@
 | 3	         | Creating github Workflows	By Code Inspection                                                                    |
 | 4	         | Pushing files and folders to repository by Git bash	By removing all the previous pushed files and folders       |
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6af768e626d9445a95ac8295e1c1a44d)](https://app.codacy.com/gh/Thanuja347/M1_Game_Quizgame?utm_source=github.com&utm_medium=referral&utm_content=Thanuja347/M1_Game_Quizgame&utm_campaign=Badge_Grade_Settings)
-[![cppcheck-action-test](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Thanuja347/M1_Game_Quizgame/actions/workflows/cppcheck.yml)
 
